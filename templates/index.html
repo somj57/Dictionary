@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dictionary</title>
+</head>
+<body>
+	<form action="submit_form" method="post">
+		Enter Your Word : <input type="text" name="letter" ><br><br>
+		<input type="submit" name="Search">
+		<input type="reset" name="Clear"><br><br>
+
+		Answer :<br> {% for i in var %}
+       			 {{ i }}<br>
+				{% endfor %}
+
+	</form>
+</body>
+</html>
