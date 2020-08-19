@@ -9,9 +9,13 @@
 		<input type="submit" name="Search">
 		<input type="reset" name="Clear"><br><br>
 
-		Answer :<br> {% for i in var %}
+		Answer : {% for i in var1 %}
        			 {{ i }}<br>
 				{% endfor %}
+				<br> {% for i in var2 %}
+       			 {{ i }}<br>
+				{% endfor %}
+				
 
 	</form>
 </body>
