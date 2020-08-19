@@ -1,1 +1,1 @@
-web :gunicorn dictionary:app
+web: gunicorn dictionary:app
