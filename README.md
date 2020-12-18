@@ -3,4 +3,3 @@
 Visit:- 🔗 https://somj57.herokuapp.com
 <br>
 
-<iframe src="https://somj57.herokuapp.com" title="Dictionary"></iframe>
